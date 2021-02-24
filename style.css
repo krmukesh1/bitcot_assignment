@@ -180,15 +180,23 @@ header .button button.btn.btn-secondary.btn-lg {
 }
 .nav-item:nth-child(1) {
   border-right: 1px solid #fff;
-  height: 27px;
+  height: 17px;
+  line-height: 3px;
 }
 .nav-item:nth-child(2) {
   border-right: 1px solid #fff;
-  height: 27px;
+  height: 17px;
+  line-height: 3px;
 }
 .nav-item:nth-child(3) {
   border-right: 1px solid #fff;
-  height: 27px;
+  height: 17px;
+  line-height: 3px;
+}
+.nav-item:nth-child(4) {
+  border-right: 1px solid #fff;
+  height: 17px;
+  line-height: 3px;
 }
 /* Section1 */
 .section1 {
@@ -557,7 +565,7 @@ i.fa.fa-facebook-square {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   header {
-    height: 108vh;
+    height: 110vh;
     background: url(images/New\ Project.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,13 +578,28 @@ i.fa.fa-facebook-square {
   }
   .nav-item:nth-child(1) {
     border-right: none !important;
-    /* height: 27px; */
+    line-height: 0;
+    margin: 5px 0;
   }
   .nav-item:nth-child(2) {
     border-right: none !important;
+    line-height: 0;
+    margin: 5px 0;
   }
   .nav-item:nth-child(3) {
     border-right: none !important;
+    line-height: 0;
+    margin: 5px 0;
+  }
+  .nav-item:nth-child(4) {
+    border-right: none !important;
+    line-height: 0;
+    margin: 5px 0;
+  }
+  header .d-flex {
+    display: flex !important;
+    margin-top: 0;
+    margin-left: -10px;
   }
   button.navbar-toggler {
     border-right: none !important;
@@ -613,6 +636,10 @@ i.fa.fa-facebook-square {
     margin: 10px;
     margin-top: 100px;
   }
+  header .d-flex {
+    display: flex !important;
+    margin-top: -5px;
+  }
   header .button button.btn.btn-primary.btn-lg {
     width: 19rem;
     margin-right: 0;
@@ -624,6 +651,9 @@ i.fa.fa-facebook-square {
     border-color: #ffffff;
     color: rgba(0, 84, 166, 255);
     font-family: "Montserrat", sans-serif;
+  }
+  input.form-control {
+    padding: 11px 80px;
   }
   header .button button.btn.btn-secondary.btn-lg {
     width: 19rem;
@@ -845,13 +875,28 @@ i.fa.fa-facebook-square {
   }
   .nav-item:nth-child(1) {
     border-right: none !important;
-    /* height: 27px; */
+    line-height: 0;
+    margin: 5px 0;
   }
   .nav-item:nth-child(2) {
     border-right: none !important;
+    line-height: 0;
+    margin: 5px 0;
   }
   .nav-item:nth-child(3) {
     border-right: none !important;
+    line-height: 0;
+    margin: 5px 0;
+  }
+  .nav-item:nth-child(4) {
+    border-right: none !important;
+    line-height: 0;
+    margin: 5px 0;
+  }
+  header .d-flex {
+    display: flex !important;
+    margin-top: 0;
+    margin-left: -10px;
   }
   button.navbar-toggler {
     border-right: none !important;
