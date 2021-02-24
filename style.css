@@ -510,3 +510,137 @@ i.fa.fa-facebook-square {
   font-size: 0.9rem;
   font-weight: 500;
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  button.navbar-toggler {
+    color: black;
+    background: #fff !important;
+  }
+  header {
+    height: 59vh;
+    background: url(images/New\ Project.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    /* background: #7a99b2; */
+  }
+  header .container {
+    margin-top: 57px;
+  }
+  header .button button.btn.btn-secondary.btn-lg {
+    width: 19rem;
+    margin-right: 4rem;
+    font-size: 1rem;
+    height: 3em;
+    background: #8aa2b8;
+    border-radius: 5px !important;
+    border: 2px solid #8aa2b8;
+    color: rgba(0, 84, 166, 255);
+    font-family: "Montserrat", sans-serif;
+  }
+  header .input-group button.btn.btn-outline-secondary.dropdown-toggle {
+    width: 8rem;
+    background: #fff;
+  }
+  header .input-group {
+    padding: 0 1rem;
+    margin-top: 153px;
+  }
+  .section1 {
+    font-family: "Montserrat", sans-serif;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 25px;
+  }
+  .section1 #event .chats {
+    width: 163px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: -20px 0 0 9px;
+    background: #fff;
+    box-shadow: 5px 10px 10px #d8e5f1;
+    z-index: 9999;
+    position: absolute;
+  }
+  .section2 {
+    background: #f8f9f9;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  .section2 h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 25px;
+    color: rgb(68, 77, 86);
+  }
+  .section2 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9f9;
+    height: 27vh;
+    margin-bottom: 1rem;
+  }
+  .section3 #question img {
+    width: 117%;
+    height: 230px;
+    /* margin: 0 auto; */
+    margin-left: 156px;
+  }
+  .section3 .shadow {
+    height: 245px;
+    width: 367px;
+    border: 1px solid #5586b5;
+    box-shadow: 1px 1px 1px #5586b5 !important;
+    background: #5586b5;
+    opacity: 0.93;
+    margin-top: -270px;
+    margin-left: 121px;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+  .section3 div#our {
+    margin: 79px 0 0 134px;
+    width: 430px;
+  }
+  .section4 div#best {
+    margin: 0 0 0 134px;
+  }
+  div#cardb {
+    margin: 61px 0 0 135px;
+  }
+  .section5 {
+    font-family: "Montserrat", sans-serif;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px 50px;
+  }
+  .section5 .container {
+    padding: 46px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f5faff;
+    box-shadow: 5px 4px 8px 5px rgb(245 250 255),
+      5px 6px 20px 5px rgb(245 250 255);
+  }
+  .foo1 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f5fafd;
+    height: 30vh;
+    max-width: 100%;
+    padding: 10px 0 0 0;
+  }
+  footer div#icon1 {
+    width: 351px;
+    margin-right: 0;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1040px) {
+}
