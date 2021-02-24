@@ -237,6 +237,10 @@ header .button button.btn.btn-secondary.btn-lg {
   background-repeat: no-repeat;
   background-size: cover;
 }
+img.card-img-top {
+  opacity: 0.5;
+  /* color: blue; */
+}
 .section1 #event .card {
   display: flex;
   width: 238px;
