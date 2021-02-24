@@ -531,7 +531,15 @@ footer div#icon1 p {
   padding-bottom: 0px;
   text-align: left;
 }
+
 footer div#footer1 h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(68, 77, 86);
+  padding-bottom: 0px;
+  text-align: left;
+}
+footer div#footer1 h1 a {
   font-size: 1.2rem;
   font-weight: 700;
   color: rgb(68, 77, 86);
@@ -545,7 +553,21 @@ footer div#footer1 p {
   padding-bottom: 0px;
   text-align: left;
 }
+footer div#footer1 p a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(68, 77, 86);
+  padding-bottom: 0px;
+  text-align: left;
+}
 #log p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(0, 84, 166);
+  padding-bottom: 0px;
+  text-align: left;
+}
+#log p a {
   font-size: 0.8rem;
   font-weight: 600;
   color: rgb(0, 84, 166);
@@ -562,6 +584,10 @@ i.fa.fa-facebook-square {
   text-align: center;
   font-size: 0.9rem;
   font-weight: 500;
+}
+a {
+  color: #0d6efd;
+  text-decoration: none !important;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   header {
