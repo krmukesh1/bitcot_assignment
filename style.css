@@ -1,7 +1,11 @@
 /* header */
 header {
-  height: 400px;
-  background: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+  height: 107vh;
+  background: url("images/New\ Project.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  /* background: #7a99b2; */
 }
 nav.navbar.navbar-expand-lg.navbar {
   padding: 1rem 3rem;
@@ -53,7 +57,9 @@ button.btn.btn-outline-success {
 button.btn.btn-outline-success:hover {
   background: none;
 }
-
+header .container {
+  margin-top: 161px;
+}
 header h1 {
   display: flex;
   justify-content: center;
@@ -87,9 +93,11 @@ header .button {
   justify-content: center;
   align-items: center;
   margin: 10px;
+  margin-top: 100px;
 }
 header .input-group {
   padding: 0 8rem;
+  margin-top: 153px;
 }
 .form-control:focus {
   color: #212529;
@@ -326,11 +334,166 @@ header .button button.btn.btn-secondary.btn-lg {
   background: #0054a6;
   margin-top: 10px;
 }
+
+/* section4 */
+.section4 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.section4 div#best {
+  margin: 0 300px 0 0;
+}
+.section4 #best h1 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #81868b;
+  padding-bottom: 15px;
+}
+.section4 #best p {
+  font-size: 0.8rem;
+  color: rgb(115, 130, 145);
+  text-align: left;
+  color: #c1c6cc;
+  font-weight: 600;
+}
+.section4 #best button.btn.btn-primary.btn-lg {
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 55px;
+  width: 160px;
+  border-radius: 5px !important;
+  background: #0054a6;
+  margin-top: 10px;
+}
+.section4 #cardb .circle {
+  height: 250px;
+  width: 400px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: -3px 8px 6px -7px #f8f8f9;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.section4 #cardb .circle .man {
+  margin-left: 320px;
+  margin-top: -60px;
+  height: 150px;
+  width: 140px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section4 #cardb p {
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0 0 0 20px;
+  color: rgb(68, 77, 86);
+  text-align: left;
+}
+.section4 #cardb .circle .man img {
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.section4 #cardb .circle .man h1 {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #81868b;
+  padding-top: 15px;
+  text-align: center;
+}
+.section4 #cardb .circle .man p {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: rgb(0, 84, 166);
+  text-align: center;
+  /* padding-top: 15px; */
+}
+.section4 .circle2 {
+  width: 250px;
+  padding: 10px 0;
+  margin-top: -120px;
+  padding: 0 0 0 20px;
+}
+.section4 .circle2 img {
+  width: 52px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 8px 8px;
+}
+.section5 {
+  font-family: "Montserrat", sans-serif;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2px 200px;
+}
+.section5 .container {
+  padding: 40px 50px 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f5faff;
+  box-shadow: 5px 4px 8px 5px rgba(245, 250, 255, 1),
+    5px 6px 20px 5px rgba(245, 250, 255, 1);
+}
+.section5 .content h1 {
+  font-size: 1.3rem;
+  color: #537eb8;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.section5 .content p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8e9297;
+}
+.section5 button.btn.btn-primary.btn-lg {
+  font-size: 1rem;
+  font-weight: 500;
+  height: 55px;
+  width: 203px;
+  border-radius: 5px !important;
+  background: #0054a6;
+}
 .foo img {
   max-width: 100%;
 }
 .foo1 {
+  font-family: "Montserrat", sans-serif;
   background-color: #f5fafd;
-  height: 300px;
+  height: 60vh;
   max-width: 100%;
+  padding: 100px 0 0 0;
+}
+footer div#icon1 {
+  width: 351px;
+  margin-right: 219px;
+}
+footer div#icon1 p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(68, 77, 86);
+  padding-bottom: 0px;
+  text-align: left;
+}
+footer div#footer1 h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(68, 77, 86);
+  padding-bottom: 0px;
+  text-align: left;
+}
+footer div#footer1 p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(68, 77, 86);
+  padding-bottom: 0px;
+  text-align: left;
+}
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
