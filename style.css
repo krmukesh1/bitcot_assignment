@@ -254,6 +254,78 @@ header .button button.btn.btn-secondary.btn-lg {
   border: none !important;
   background: #fff;
 }
+/* section3 */
+.section3 {
+  font-family: "Montserrat", sans-serif;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.section3 #question {
+  opacity: 0.8;
+}
+.section3 #question img {
+  width: 67%;
+  height: 230px;
+}
+.section3 .shadow {
+  height: 245px;
+  width: 367px;
+  border: 1px solid #5586b5;
+  box-shadow: 1px 1px 1px #5586b5 !important;
+  background: #5586b5;
+  opacity: 0.93;
+  margin-top: -270px;
+  margin-left: -35px;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.section3 .shadow h1 {
+  font-size: 1.4rem;
+  color: rgb(202, 213, 224);
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.section3 .shadow p {
+  font-size: 0.8rem;
+  color: rgb(202, 213, 224);
+  font-weight: 500;
+}
+.section3 .shadow button.btn.btn-primary.btn-lg {
+  font-size: 14px;
+  background: #28e072 !important;
+  border-color: #28e072 !important;
+  color: #000 !important;
+  font-weight: 600;
+  width: 90px;
+  border-radius: 5px !important;
+}
+.section3 div#our {
+  margin: -10px 0 0 134px;
+  width: 430px;
+}
+.section3 #our h1 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #81868b;
+  padding-bottom: 15px;
+}
+.section3 #our p {
+  font-size: 0.8rem;
+  color: rgb(115, 130, 145);
+  text-align: left;
+  color: #c1c6cc;
+  font-weight: 600;
+}
+.section3 #our button.btn.btn-primary.btn-lg {
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 55px;
+  width: 160px;
+  border-radius: 5px !important;
+  background: #0054a6;
+  margin-top: 10px;
+}
 .foo img {
   max-width: 100%;
 }
