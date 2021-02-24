@@ -369,8 +369,12 @@ header .button button.btn.btn-secondary.btn-lg {
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
-.section4 div#best {
+/* .section4 div#best {
   margin: 0 300px 0 0;
+} */
+.section4 div#best {
+  margin: -1px 240px 0 0;
+  width: 328px;
 }
 .section4 #best h1 {
   font-size: 1.7rem;
@@ -781,6 +785,26 @@ i.fa.fa-facebook-square {
     color: #537eb8;
     padding-bottom: 0px;
     text-align: center;
+  }
+  .foo1 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f5fafd;
+    height: 122vh;
+    max-width: 100%;
+    padding: 22px 0 0 43px;
+  }
+  #log p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(0, 84, 166);
+    margin-top: 6px;
+    text-align: left;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0 0 0 -45px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
