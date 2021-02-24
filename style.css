@@ -52,7 +52,7 @@ ul li a:hover {
   text-transform: uppercase;
 }
 button.btn.btn-outline-success {
-  border-color: #fff;
+  border: 1px solid #fff !important;
 }
 button.btn.btn-outline-success:hover {
   background: none;
@@ -66,10 +66,10 @@ header h1 {
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: rgba(255, 255, 255, 255);
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
 }
 header span {
   color: #0054a6;
@@ -124,7 +124,8 @@ header .button {
 }
 header .input-group {
   padding: 0 8rem;
-  margin-top: 153px;
+  margin-top: 156px;
+  box-shadow: 0px 5px 5px #5586b5 !important;
 }
 .form-control:focus {
   color: #212529;
@@ -156,26 +157,39 @@ button.btn.btn-outline-secondary.dropdown-toggle:hover {
 header .button button.btn.btn-primary.btn-lg {
   width: 17rem;
   margin-right: 4rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   height: 3em;
   background: #f5fafd;
   border-radius: 5px !important;
   border-color: #ffffff;
-  color: rgba(0, 84, 166, 255);
+  color: rgb(0, 84, 166);
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 header .button button.btn.btn-secondary.btn-lg {
-  width: 18rem;
+  width: 19rem;
   margin-right: 4rem;
   font-size: 1rem;
   height: 3em;
   background: #8aa2b8;
   border-radius: 5px !important;
-  border: 2px solid #8aa2b8;
+  border: 2px solid rgba(0, 84, 166, 255) !important;
   color: rgba(0, 84, 166, 255);
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
-
+.nav-item:nth-child(1) {
+  border-right: 1px solid #fff;
+  height: 27px;
+}
+.nav-item:nth-child(2) {
+  border-right: 1px solid #fff;
+  height: 27px;
+}
+.nav-item:nth-child(3) {
+  border-right: 1px solid #fff;
+  height: 27px;
+}
 /* Section1 */
 .section1 {
   font-family: "Montserrat", sans-serif;
@@ -543,7 +557,7 @@ i.fa.fa-facebook-square {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   header {
-    height: 115vh;
+    height: 108vh;
     background: url(images/New\ Project.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -553,6 +567,19 @@ i.fa.fa-facebook-square {
   button.navbar-toggler {
     background: #fff;
     color: #000;
+  }
+  .nav-item:nth-child(1) {
+    border-right: none !important;
+    /* height: 27px; */
+  }
+  .nav-item:nth-child(2) {
+    border-right: none !important;
+  }
+  .nav-item:nth-child(3) {
+    border-right: none !important;
+  }
+  button.navbar-toggler {
+    border-right: none !important;
   }
   header .container {
     margin-top: 45px;
@@ -587,7 +614,7 @@ i.fa.fa-facebook-square {
     margin-top: 100px;
   }
   header .button button.btn.btn-primary.btn-lg {
-    width: 18rem;
+    width: 19rem;
     margin-right: 0;
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -599,7 +626,7 @@ i.fa.fa-facebook-square {
     font-family: "Montserrat", sans-serif;
   }
   header .button button.btn.btn-secondary.btn-lg {
-    width: 18rem;
+    width: 19rem;
     margin-right: 0;
     font-size: 1rem;
     height: 3em;
@@ -610,7 +637,7 @@ i.fa.fa-facebook-square {
     font-family: "Montserrat", sans-serif;
   }
   header .input-group {
-    padding: 0 1rem;
+    padding: 0 3rem;
     margin-top: 53px;
   }
   input.form-control {
@@ -622,6 +649,10 @@ i.fa.fa-facebook-square {
   header .input-group button.btn.btn-outline-secondary.dropdown-toggle {
     width: 22rem;
     background: #fff;
+    border: 1px solid #000 !important;
+  }
+  button#bt {
+    width: 326px;
   }
   .section1 {
     font-family: "Montserrat", sans-serif;
@@ -812,8 +843,21 @@ i.fa.fa-facebook-square {
     color: black;
     background: #fff !important;
   }
+  .nav-item:nth-child(1) {
+    border-right: none !important;
+    /* height: 27px; */
+  }
+  .nav-item:nth-child(2) {
+    border-right: none !important;
+  }
+  .nav-item:nth-child(3) {
+    border-right: none !important;
+  }
+  button.navbar-toggler {
+    border-right: none !important;
+  }
   header {
-    height: 59vh;
+    height: 58vh;
     background: url(images/New\ Project.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -824,7 +868,7 @@ i.fa.fa-facebook-square {
     margin-top: 57px;
   }
   header .button button.btn.btn-secondary.btn-lg {
-    width: 19rem;
+    width: 21rem;
     margin-right: 4rem;
     font-size: 1rem;
     height: 3em;
@@ -1032,7 +1076,7 @@ i.fa.fa-facebook-square {
   .foo1 {
     font-family: "Montserrat", sans-serif;
     background-color: #f5fafd;
-    height: 37vh;
+    height: 20vh;
     max-width: 100%;
     padding: 0;
   }
